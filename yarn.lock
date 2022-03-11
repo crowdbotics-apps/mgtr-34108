@@ -1016,7 +1016,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@modules/app-menu@file:./modules/app-menu/":
+"@modules/app-menu@file:./modules/app-menu":
   version "1.0.0"
 
 "@modules/articles@file:./modules/articles":
@@ -1056,6 +1056,11 @@
 
 "@modules/splash@file:./modules/splash":
   version "1.0.0"
+
+"@modules/terms-and-conditions@file:./modules/terms-and-conditions":
+  version "1.0.1"
+  dependencies:
+    react-native-render-html "^5.1.0"
 
 "@modules/user-profile@file:./modules/user-profile":
   version "1.0.0"
